@@ -59,10 +59,10 @@ except URLError as e:
 #my_cur = my_cnx.cursor()
 
 #my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION(), CURRENT_ROLE()")
-my_cur.execute("select * from fruit_load_list;")
-my_data_row = my_cur.fetchall()
-streamlit.text("The fruit load list contains:")
-streamlit.dataframe(my_data_row)
+#my_cur.execute("select * from fruit_load_list;")
+#my_data_row = my_cur.fetchall()
+#streamlit.text("The fruit load list contains:")
+#streamlit.dataframe(my_data_row)
 
 streamlit.header ("The fruit load list contains:")
 #Snowflake-related functions
